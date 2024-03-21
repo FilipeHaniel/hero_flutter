@@ -1,5 +1,5 @@
-import 'package:hero_flutter/share/http/common_response.dart';
-import 'package:hero_flutter/share/http/core_http.dart';
+import 'package:hero_flutter/shared/http/common_response.dart';
+import 'package:hero_flutter/shared/http/core_http.dart';
 
 import 'package:dio/dio.dart';
 

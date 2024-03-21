@@ -1,13 +1,13 @@
 import 'package:equatable/equatable.dart';
 
 class BodyMeasurementsEntity extends Equatable {
-  final int? chest;
-  final int? waist;
-  final int? hip;
-  final int? rigthArm;
-  final int? leftArm;
-  final int? rightThigh;
-  final int? leftThigh;
+  final double? chest;
+  final double? waist;
+  final double? hip;
+  final double? rigthArm;
+  final double? leftArm;
+  final double? rightThigh;
+  final double? leftThigh;
 
   const BodyMeasurementsEntity({
     this.chest,

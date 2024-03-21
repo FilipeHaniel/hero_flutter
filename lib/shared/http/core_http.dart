@@ -1,4 +1,4 @@
-import 'package:hero_flutter/share/http/core_response.dart';
+import 'package:hero_flutter/shared/http/core_response.dart';
 
 abstract class CoreHttp {
   void addHeader(String key, String value);

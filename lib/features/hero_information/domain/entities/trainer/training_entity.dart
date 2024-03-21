@@ -1,10 +1,10 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
 import 'package:equatable/equatable.dart';
-import 'package:hero_flutter/features/hero_information/domain/entities/exercise_entity.dart';
+import 'package:hero_flutter/features/hero_information/domain/entities/trainer/exercise_entity.dart';
 
 class TrainingEntity extends Equatable {
-  final int? daysPerWeek;
+  final double? daysPerWeek;
   final List<ExerciseEntity>? exercises;
 
   const TrainingEntity({

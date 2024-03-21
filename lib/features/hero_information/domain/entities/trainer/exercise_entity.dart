@@ -3,9 +3,9 @@ import 'package:equatable/equatable.dart';
 
 class ExerciseEntity extends Equatable {
   final String? name;
-  final int? sets;
-  final int? repetitions;
-  final int? weight;
+  final double? sets;
+  final double? repetitions;
+  final double? weight;
 
   const ExerciseEntity({
     this.name,
