@@ -4,7 +4,7 @@ import 'package:equatable/equatable.dart';
 import 'package:hero_flutter/features/hero_information/domain/entities/trainer/body_measurements_entity.dart';
 import 'package:hero_flutter/features/hero_information/domain/entities/trainer/training_entity.dart';
 
-class Trainer extends Equatable {
+class TrainerEntity extends Equatable {
   final String? name;
   final double? age;
   final String? gender;
@@ -14,7 +14,7 @@ class Trainer extends Equatable {
   final TrainingEntity? training;
   final BodyMeasurementsEntity? bodyMeasurementsEntity;
 
-  const Trainer({
+  const TrainerEntity({
     this.name,
     this.age,
     this.gender,
