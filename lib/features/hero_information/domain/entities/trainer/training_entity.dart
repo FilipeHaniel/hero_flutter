@@ -4,12 +4,12 @@ import 'package:equatable/equatable.dart';
 import 'package:hero_flutter/features/hero_information/domain/entities/trainer/exercise_entity.dart';
 
 class TrainingEntity extends Equatable {
-  final double? daysPerWeek;
-  final List<ExerciseEntity>? exercises;
+  final double daysPerWeek;
+  final List<ExerciseEntity> exercises;
 
   const TrainingEntity({
-    this.daysPerWeek,
-    this.exercises,
+    required this.daysPerWeek,
+    required this.exercises,
   });
 
   @override

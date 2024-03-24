@@ -2,16 +2,16 @@
 import 'package:equatable/equatable.dart';
 
 class ExerciseEntity extends Equatable {
-  final String? name;
-  final double? sets;
-  final double? repetitions;
-  final double? weight;
+  final String name;
+  final double sets;
+  final double repetitions;
+  final double weight;
 
   const ExerciseEntity({
-    this.name,
-    this.sets,
-    this.repetitions,
-    this.weight,
+    required this.name,
+    required this.sets,
+    required this.repetitions,
+    required this.weight,
   });
 
   @override

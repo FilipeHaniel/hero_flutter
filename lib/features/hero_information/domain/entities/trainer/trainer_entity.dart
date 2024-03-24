@@ -5,24 +5,24 @@ import 'package:hero_flutter/features/hero_information/domain/entities/trainer/b
 import 'package:hero_flutter/features/hero_information/domain/entities/trainer/training_entity.dart';
 
 class TrainerEntity extends Equatable {
-  final String? name;
-  final double? age;
-  final String? gender;
-  final double? height;
-  final double? weight;
-  final String? goal;
-  final TrainingEntity? training;
-  final BodyMeasurementsEntity? bodyMeasurementsEntity;
+  final String name;
+  final double age;
+  final String gender;
+  final double height;
+  final double weight;
+  final String goal;
+  final TrainingEntity training;
+  final BodyMeasurementsEntity bodyMeasurementsEntity;
 
   const TrainerEntity({
-    this.name,
-    this.age,
-    this.gender,
-    this.height,
-    this.weight,
-    this.goal,
-    this.training,
-    this.bodyMeasurementsEntity,
+    required this.name,
+    required this.age,
+    required this.gender,
+    required this.height,
+    required this.weight,
+    required this.goal,
+    required this.training,
+    required this.bodyMeasurementsEntity,
   });
 
   @override
